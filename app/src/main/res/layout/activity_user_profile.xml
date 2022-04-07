@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <ScrollView tools:context=".UserProfile" android:background="@drawable/third_gradient" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent">
+
+
+    <LinearLayout android:background="#6dd5ed" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:padding="16dp">
+
+
+    <LinearLayout android:background="#6dd5ed" android:orientation="vertical" android:layout_height="280dp" android:layout_width="match_parent" android:padding="18dp">
+
+    <com.google.android.material.imageview.ShapeableImageView android:layout_height="150dp" android:layout_width="150dp" android:padding="4.5dp" android:src="@drawable/profileicon" app:strokeColor="@color/darkblue" app:strokeWidth="1.5dp" android:id="@+id/shapeimgview" app:shapeAppearanceOverlay="@style/Circular" android:layout_gravity="center"> ></com.google.android.material.imageview.ShapeableImageView>
+
+    <com.google.android.material.button.MaterialButton android:layout_height="60dp" android:layout_width="120dp" android:id="@+id/addbtn" app:cornerRadius="15dp" android:layout_marginLeft="102dp" android:text="ADD" android:drawableEnd="@drawable/addicon"/>
+
+</LinearLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textFieldfrstname" android:hint="@string/firstname">
+
+    <com.google.android.material.textfield.TextInputEditText android:background="@drawable/first_gradient" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textFieldfrstname1" android:drawableStart="@drawable/profile48"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+
+    -<com.google.android.material.textfield.TextInputLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textFieldsurname" android:hint="@string/surname" android:paddingTop="10dp">
+
+    <com.google.android.material.textfield.TextInputEditText android:background="@drawable/first_gradient" android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/textFieldsurname1" android:drawableStart="@drawable/profile48"/>
+
+</com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
+
+    <com.google.android.material.button.MaterialButton android:layout_height="wrap_content" android:layout_width="100dp" android:id="@+id/updatebutton" android:layout_gravity="center" app:cornerRadius="18dp" android:text="Update"/>
+
+    <com.google.android.material.button.MaterialButton android:layout_height="wrap_content" android:layout_width="100dp" android:id="@+id/checkbutton" android:layout_gravity="center" app:cornerRadius="18dp" android:text="check"/>
+
+</LinearLayout>
+
+</ScrollView>
